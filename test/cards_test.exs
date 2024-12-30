@@ -5,4 +5,8 @@ defmodule CardsTest do
   test "greets the world" do
     assert Cards.hello() == :world
   end
+
+  test "greets the whole world" do
+    assert Cards.helloworld() == "hello world!"
+  end
 end

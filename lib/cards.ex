@@ -11,8 +11,15 @@ defmodule Cards do
       iex> Cards.hello()
       :world
 
+      iex> Cards.helloworld()
+      "hello world!"
+
   """
   def hello do
     :world
+  end
+
+  def helloworld do
+    "hello world!"
   end
 end
